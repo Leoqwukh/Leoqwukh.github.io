@@ -7,7 +7,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="">
 
-	<title>Signal</title>
+	<title>OT - Decryption</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
 	<!-- Bootstrap core CSS -->
@@ -26,37 +26,31 @@
 
 
 		<main role="main" class="inner cover log-text">
-			<div class="container">
-										<p id="logCore" class="log-p">
-					...
-				</p>
-						<p id="logCore" class="log-p">
-					...
-				</p>
-						<p id="logCore" class="log-p">
-					...
-				</p>
-				<p id="logCore" class="log-p">
-					Leoqwukh42
-				</p>
-						<p id="logCore" class="log-p">
-					...
-				</p>
-						<p id="logCore" class="log-p">
-					...
-				</p>
-						<p id="logCore" class="log-p">
-					...
-				</p>
+			<div class="container mt-3">
+				<div class="form-group">
+					<p>
+					OT - Decryption mobile device - 4.0.8 - ID_SERP_24567892 
+					</p>
+					<label for="dataFormControlTextArea">Data :</label>
+					<textarea class="form-control" id="dataFormControlTextArea" rows="20"></textarea>
+				</div>
 			</div>
+	
+			<form class="form-inline mt-3 mb-3">
+				<label class="sr-only" for="pseudoKeyForm"></label>
+				<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="pseudoKeyForm" placeholder="Key...">
+				<button type="button" class="btn btn-log" id="pseudoKeyButton" onClick='tryDecryptData()'>Decrypt</button>
+			</form>
 
 		</main>
 
-		<footer class="mastfoot mt-auto">
+		<footer class="mastfoot mt-auto mt-3 mb-3">
 			<div class="inner">
 			</div>
 		</footer>
 	</div>
 
+
+	<script type="text/javascript" src="js/42_crypto.js"></script>
 </body>
 </html>

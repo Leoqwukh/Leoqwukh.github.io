@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="">
+
+	<title>Signal II</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="css/42_style.css" rel="stylesheet">
+</head>
+
+<body class="text-justify">
+
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+		<header class="masthead mb-auto">
+			<div class="inner">
+			</div>
+		</header>
+
+
+		<main role="main" class="inner cover ">
+			<div class="container">
+				<div class="log-text">
+					<p>
+						<button class="btn btn-log" type="button" data-toggle="collapse" data-target="#collapseTool" aria-expanded="false" aria-controls="collapseTool">
+							Open/close tool
+						</button>
+					</p>
+					<div class="collapse" id="collapseTool">
+						<div class="form-group">
+							<p>
+								OT - Unknown mobile tool - 1.1.5 - ID_SERP_75355646
+							</p>
+							<label for="ID_SERP_75355646_inputTextArea">Input :</label>
+							<textarea class="form-control" id="ID_SERP_75355646_inputTextArea" rows="4"></textarea>
+							<form class="form-inline mt-3 mb-3">
+								<input type="number" class="form-control" id="ID_SERP_75355646_parameter" name="ID_SERP_75355646_parameter" min="-50" max="50">
+								<button type="button" class="btn btn-log ml-2 mt-2 mb-2" id="ID_SERP_75355646_Button" onClick='ID_SERP_75355646_call()'>Use tool</button>
+							</form>
+							<textarea class="form-control" id="ID_SERP_75355646_outputTextArea" rows="4" readonly></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="container mt-3">
+				<div class="log-text">
+					<p>
+						OT - Nation data protection system - 3.0.3 - ID_SERP_14565487
+					</p>
+
+					<div class="form-group row">
+						<label for="ID_SERP_14565487_inputKey1" class="col-sm-1 col-form-label">1:</label>
+						<div class="col-sm-11">
+							<input type="text" class="form-control key-form-control" id="ID_SERP_14565487_inputKey1" placeholder="Key 1...">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label for="ID_SERP_14565487_inputKey2" class="col-sm-1 col-form-label">2:</label>
+						<div class="col-sm-11">
+							<input type="text" class="form-control key-form-control" id="ID_SERP_14565487_inputKey2" placeholder="Key 2...">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label for="ID_SERP_14565487_inputKey3" class="col-sm-1 col-form-label">3:</label>
+						<div class="col-sm-11">
+							<input type="text" class="form-control key-form-control" id="ID_SERP_14565487_inputKey3" placeholder="Key 3...">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label for="ID_SERP_14565487_inputKey4" class="col-sm-1 col-form-label">4:</label>
+						<div class="col-sm-11">
+							<input type="text" class="form-control key-form-control" id="ID_SERP_14565487_inputKey4" placeholder="Key 4...">
+						</div>
+					</div>
+
+					<form class="form-inline mt-3 mb-3">
+						<button type="button" class="btn btn-log" id="ID_SERP_14565487_Button" onClick='ID_SERP_14565487_call()'>Unlock</button>
+					</form>
+				</div>
+			</div>
+
+			<div id="data-access-info" class="container mt-3 d-none">
+				<div class="log-text">
+					<p id="data-access-info-status">
+					</p>
+					<p id="data-access-info-key">
+					</p>
+					<p>
+						ID_SERP_24567892 - Data : 
+						RAR/bWXXuX96mkqbimv7NPNAIRjCVcm1nXmz3uuxuz5ttJBg0u7aGlPT7WW5o7ZVBfAz0u17WdpbvJ6HAa6UqTPT7Un/Lq6KJjE2bB62dz1kBO312/OxQ4+yJdBID0+bhKkInZg1/3sFrXerTG/jziQiMtWKqdgeTli/3QI4p704EshPx9DxIehljPU2sbgHNFD/ozE2ZlOWtSE9kQnRhXvGmTGzmGAaX6pUP4OkpIzXwC65y1BO+FI7uarJhn5UGuTUlXM89JFBH4SrdPVYlMbGS4fFFDVBhyI/QpH1c8MoLLkdAglxSLFae5KpDw7ZV49OWlCEVDG3uUddSEZuN48jXlqNimvOrcxioCvL4E5njGawg5E8sCgQSwRwzAxBn9VAZaVkwN1Gcw32wj4GggnudZtwABux4BhQzpUgBTI+umrxHPHwWfuNjbCzWT3rzIJBdQqiCQW+tymH6s/er8TSHb76PsA9FgJzN0hWacsnB8d/gFtiX/MlhLy3jBwoEN1Qw3s6pXJ+eT8gUEXNTYI6TVo++57w2YX6feNAmAvhrgLTol8UFWBBe9E+EAQVcpC0WGCMiuuV9s5B/aY+SLD1WWyp3l1+qaIaOkMwckrEgi5p4F1heyPwEvSaDirnUfdIcB39Qkpdl96wqNRQoCSd6RSlwV7OcpbxiCdCl5QYtiWz5PocoSJUR+nXouT22gy0rPXTjJUA4MuF+YQa0Imk2WWskPlHrQLrwWxQ6IwIHiga7IyeP8d2uvARmeCYBrvQYWjfw7VHSBdjSbEtiGxukRP+DIlO/KR0RvcWymApR/7S
+					</p>
+				</div>
+			</div>
+		</main>
+
+		<footer class="mastfoot mt-auto mt-3 mb-3">
+			<div class="inner">
+			</div>
+		</footer>
+	</div>
+
+
+	<script type="text/javascript" src="js/42_crypto.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
